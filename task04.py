@@ -21,6 +21,6 @@ new_student = {
 students.append(new_student)
 
 with open("output/students.json", 'w') as f:
-     json.dump(students,f,ensure_ascii=False, indent=4)
+     json.dump(students,f, indent=4)
 
 print("Malumot qoshildi!")

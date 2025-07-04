@@ -21,4 +21,4 @@ students = [
 ]
 
 with open('output/students.json', 'w') as jsonf:
-    json.dump(students,jsonf,ensure_ascii=False, indent=4)
+    json.dump(students,jsonf, indent=4)

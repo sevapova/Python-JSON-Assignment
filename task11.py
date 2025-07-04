@@ -10,4 +10,4 @@ if not os.path.exists("output"):
 
 if not os.path.exists("output/students.json"):
     with open("output/students.json", "w") as f:
-        json.dump([], f, ensure_ascii=False, indent=4)
+        json.dump([], f,indent=4)

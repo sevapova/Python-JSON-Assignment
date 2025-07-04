@@ -14,4 +14,4 @@ students.append(x)
 
 
 with open("output/students.json", 'w') as f:
-     json.dump(students,f,ensure_ascii=False, indent=4)
+     json.dump(students,f, indent=4)
